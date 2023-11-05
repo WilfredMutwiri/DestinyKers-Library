@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bkGrid{
+    @apply grid grid-cols-4 w-11/12 pt-14 m-auto
+}
+.bkImg{
+@apply w-56 object-contain
+}
+.bkBtn{
+    @apply text-blue-700 hover:text-red-600 pl-4
+}
+.bkDesc{
+    @apply pt-3 pb-2
+}
